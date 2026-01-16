@@ -8,18 +8,18 @@
 ### Returns a list of games published by a specific publisher
 #### @param {string} chosenPublisher - Name of the publisher
 #### @returns {Array} A list of game titles published by that publisher
-**' function getGamesByPublisher(chosenPublisher) '**
+**` function getGamesByPublisher(chosenPublisher) `**
 #
 ### Returns games released on or after a given year
 #### @param {number} year - The cutoff year
 #### @returns {Array} A list of game titles
-**' function getGamesAfterYear(year) '**
+**` function getGamesAfterYear(year) `**
 #
 ### Finds the highest selling game in the dataset
 #### @returns {string} The title of the highest selling game
-**' function getHighestSellingGame '**
+**` function getHighestSellingGame `**
 #
 ### Returns games that sold more than a given number of copies.
 #### @param {number} minimumSales - Least Sales
 #### @returns {Array} List of games exceeding the sales value
-**' function getGamesOverSales(minimumSales) '**
+**` function getGamesOverSales(minimumSales) `**
